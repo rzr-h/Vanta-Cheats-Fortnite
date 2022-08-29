@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fortnite">
+      <UniqueIdentifier>{24080d12-3dfd-43ec-b81c-f2be1989bb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CheatHelper">
+      <UniqueIdentifier>{7065a20f-520b-4446-8e93-7d158866c6f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{5129193a-05f1-432f-a7f7-d296f9c7a24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VantaCheats">
+      <UniqueIdentifier>{98b562a2-8555-460d-b67f-f980a098e9d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DriverCommunication">
+      <UniqueIdentifier>{1dfe5c1a-91bb-4194-88f6-378cab21ac6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{01011d35-fa9e-4297-9167-5ab9fb529750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AlreadyHijacked">
+      <UniqueIdentifier>{f2a13c26-7fc7-4f0c-a505-b11cae1c8b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blowfish">
+      <UniqueIdentifier>{f7024542-011b-4e70-afcc-fd7628eefdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{78014825-6d4f-4475-a575-a52fa76df974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Console">
+      <UniqueIdentifier>{c4f50e0f-bbf0-4634-855b-3a33ba8efdb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Streamproof">
+      <UniqueIdentifier>{d49e6967-cac1-46f7-9a38-e6a6d3b411f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Offsets.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="VantaCheats.h">
+      <Filter>VantaCheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="FNamePool.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatDriver.h">
+      <Filter>DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatEncryption.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="Hijacked.h">
+      <Filter>AlreadyHijacked</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFunctions.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Storage.h">
+      <Filter>AlreadyHijacked</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawMenu.h">
+      <Filter>AlreadyHijacked</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScan.h">
+      <Filter>DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelDriver.h">
+      <Filter>DriverCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="Shellcode.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>CheatHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Fortnite</Filter>
+    </ClInclude>
+    <ClInclude Include="Blowfish.h">
+      <Filter>Blowfish</Filter>
+    </ClInclude>
+    <ClInclude Include="Auth.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Streamproof.h">
+      <Filter>Streamproof</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VantaCheats.cpp">
+      <Filter>VantaCheats</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Blowfish.cpp">
+      <Filter>Blowfish</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="physmeme-lib.lib" />
+  </ItemGroup>
+</Project>
